@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - Suryoday Energy & Infrastructure</title>
+  <link rel="website icon" type="png" href="card_logo-removebg-preview for icon.jpg">
+  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <section class="about-hero">
+    <nav class="navbar">
+      <div class="logo-container">
+        <button class="hamburger" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="about-hero-content">
+      <h1>About Us</h1>
+      <p>About the Company.</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="about-text">
+        <h2>Who We Are</h2>
+        <p>
+          Suryoday Energy & Infrastructure is committed to delivering premium solar energy solutions for residential,
+          commercial, and industrial needs. Our mission is to make clean energy accessible and affordable for all,
+          while contributing to a greener tomorrow.
+        </p>
+        <p>
+          With a team of experienced engineers and innovative thinkers, we tailor each project with precision, ensuring
+          quality, reliability, and sustainability in every product we offer.
+        </p>
+
+        <h2>Our Vision</h2>
+        <p>
+          To become a leading provider of renewable energy technologies and set the benchmark for clean energy solutions
+          across the globe.
+        </p>
+
+        <h2>What We Offer</h2>
+        <ul>
+          <li>Solar Panels & Installations</li>
+          <li>Energy Consulting</li>
+          <li>Infrastructure Development</li>
+          <li>Custom Solar Product Design</li>
+        </ul>
+
+        <a href="index.html#services" class="btn">Explore Our Products</a>
+      </div>
+      <div class="about-image">
+        <img src="https://pictures.altai-travel.com/1920x0/mount-everest-aerial-view-himalayas-istock-3745.jpg"
+          alt="Our Team" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="product.html">Products</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer-right">
+      <p>Suryoday Energy & Infrastructure</p>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
+
+
+</body>
+
+</html>
